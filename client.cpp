@@ -1,28 +1,29 @@
 #include <iostream>
-#include <fstream>
-#include <cstdlib>
+#include "bubbleSort.h"
+
 using namespace std;
 
-const char strOutputFile[] = "Output1.txt";
 
-int main( void )
-{
-    ofstream outFile(strOutputFile, ios::out);
-    if(!outFile)
-    {
-        cerr << "Cannot create file!" << endl;
-        exit(1);
+void printArray(double array[], unsigned int len){
+    for(int i=0; i<len; ++i){
+        cout<<array[i]<< " ";
     }
-    char strName[100];
-    int num;
+    cout<<endl;
+}
 
-    cout << "Enter Name and Number (EOF to exit): " << endl;
-
-    while(cin >> strName >> num)
-    {
-        outFile << strName << ' ' << num << endl;
-        cout << "Enter Name and Number (EOF to exit): " << endl;
-    }
-
+int main(){
+    cout<<"jeshwanth"<<endl;
+    double inarray[5] = {1,3,5,2,5};
+    bubbleSort(inarray, 5);
+    printArray(inarray, 5);
+    double inarray1[10] = {1, 5, 9, 23, 3, 0, 33, -1, 83, 1000032};
+    bubbleSort(inarray1, 10);
+    printArray(inarray1, 10);
+    double inarray2[1] = {1};
+    bubbleSort(inarray2, 1);
+    printArray(inarray2, 1);
+    double inarray3[] = {};
+    bubbleSort(inarray3, 0);
+    printArray(inarray3, 0);
     return 0;
 }
