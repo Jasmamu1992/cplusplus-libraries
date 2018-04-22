@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.3.1, 2018-04-16T23:34:47. -->
+<!-- Written by QtCreator 4.3.1, 2018-04-21T16:43:20. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -350,9 +350,9 @@
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Arguments"></value>
-    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Executable">/home/jeshwanth/Documents/CppProjects/cpp_ibraries/cplusplus-libraries/build/client</value>
+    <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.Executable">/home/jeshwanth/Documents/CppProjects/cpp_ibraries/cplusplus-libraries/build/jvectorclient</value>
     <value type="QString" key="ProjectExplorer.CustomExecutableRunConfiguration.WorkingDirectory">%{buildDir}</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Run /home/jeshwanth/Documents/CppProjects/cpp_ibraries/cplusplus-libraries/build/client</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Run /home/jeshwanth/Documents/CppProjects/cpp_ibraries/cplusplus-libraries/build/jvectorclient</value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.CustomExecutableRunConfiguration</value>
     <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>

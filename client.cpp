@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "vector.h"
 #include "bubbleSort.h"
 
 using namespace std;
