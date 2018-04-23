@@ -28,6 +28,7 @@ public:
     inline T&                   front() {return at(0);}
     inline T&                   operator[](const size_t i){return at(i);}
     inline T&                   pop_back();
+    inline void                 clear();
 
     template <typename U> friend std::ostream& operator<<(std::ostream& os, const vector<U>& v);
 protected:
@@ -118,16 +119,11 @@ vector<T>::~vector(){
     delete[] mdata;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+template <typename T>
+void vector<T>::clear(){
+    mcapacity = 0;
+    msize = 0;
+    mdata = nullptr;
+}
 
 }
