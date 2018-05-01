@@ -30,14 +30,14 @@ matrix:
 
 before_install:
   - sudo apt-get update -qq
-  - export CMAKE_OPTIONS=${CMAKE_OPTIONS}" "${ENV_CMAKE_OPTIONS}
-  - export CXX_FLAGS=${CXX_FLAGS}" "${ENV_CXX_FLAGS}
-  - chmod +x build.sh
-  - cd /usr/src/gtest
-  - sudo cmake CMakeLists.txt
-  - sudo make 
-  - sudo cp *.a /usr/lib
-  - cd -
+  - sudo wget https://github.com/google/googletest/archive/release-1.7.0.tar.gz
+  - sudo tar xf release-1.7.0.tar.gz
+  - cd googletest-release-1.7.0
+  - sudo cmake -DBUILD_SHARED_LIBS=ON .
+  - sudo make
+  - sudo cp -a include/gtest /usr/include
+  - sudo cp -a libgtest_main.so libgtest.so /usr/lib/
+  - which valgrind
 
 install:
     - sudo pip install codecov
