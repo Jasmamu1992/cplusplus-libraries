@@ -26,7 +26,6 @@ before_install:
   - sudo apt-get update -qq
   - export CMAKE_OPTIONS=${CMAKE_OPTIONS}" "${ENV_CMAKE_OPTIONS}
   - export CXX_FLAGS=${CXX_FLAGS}" "${ENV_CXX_FLAGS}
-  - chmod +x build.sh
   - cd /usr/src/gtest
   - sudo cmake CMakeLists.txt
   - sudo make 
@@ -51,4 +50,4 @@ install:
 script:
   - mkdir build
   - cd build
-  - cmake .. && make
+  - cmake ${CMAKE_OPTIONS} -DCMAKE_CXX_FLAGS=${CXX_FLAGS} -DCMAKE_CXX_COMPILER=$COMPILER -DCMAKE_BUILD_TYPE=ON -DBUILD_TESTS=ON .. && make
