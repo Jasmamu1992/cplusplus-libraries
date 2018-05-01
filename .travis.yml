@@ -1,0 +1,16 @@
+language: cpp
+
+env:
+  global:
+    - LINUX_DIST=trusty
+    - CXX_FLAGS="-Wall -Werror"
+
+matrix:
+  inlcude:
+    - compiler: gcc
+
+  
+script:
+  - mkdir build
+  - cd build
+  - cmake .. && make
