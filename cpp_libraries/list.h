@@ -16,18 +16,29 @@ public:
     inline                  ~node(){next=nullptr; prev=nullptr;}
 };
 
-template <typename T>
-class list_iterator: public std::iterator<std::bidirectional_iterator_tag, T>{
+template <typename list_type, typename _pointer, typename _reference>
+class list_iterator: public std::iterator<std::bidirectional_iterator_tag,
+                                          typename list_type::value_type,
+                                          typename list_type::difference_type,
+                                          _pointer,
+                                          _reference>{
 public:
-    using node_pointer        = node<T>*;
-    using iterator            = list_iterator<T>;
+    using value_type          = typename list_type::value_type;
+    using difference_type     = typename list_type::difference_type;
+    using node_pointer        = node<value_type>*;
+    using iterator            = list_iterator<list_type, _pointer, _reference>;
     inline                    list_iterator(){nodeP=nullptr;}
-    inline                    list_iterator(node_pointer& np){nodeP = np;}
-    inline                    list_iterator(iterator& it){nodeP=it.nodeP;}
-    inline                    ~list_iterator(){delete nodeP; nodeP = nullptr;}
+    inline                    list_iterator(const node_pointer& np){nodeP = np;}
+    inline                    list_iterator(const iterator& it){nodeP=it.nodeP;}
+    inline                    ~list_iterator(){}
+    inline iterator&          operator=(const iterator& it) {nodeP=it.nodeP; return *this;}
+    inline iterator           operator++(int n){for(int i=0;i<n;++i) {nodeP=nodeP->next;} return *this;}
     inline iterator&          operator++(){nodeP=nodeP->next; return *this;}
-    inline bool               operator!=(const iterator& other){return nodeP!=other.nodeP;}
-    inline T&                 operator*(){return nodeP->data;}
+    inline iterator&          operator--(){nodeP=nodeP->prev; return *this;}
+    inline iterator           operator--(int n){for(int i=0;i<n;++i) {nodeP=nodeP->prev;} return *this;}
+    inline bool               operator!=(const iterator& other) const {return nodeP!=other.nodeP;}
+    inline bool               operator==(const iterator& other) const {return nodeP==other.nodeP;}
+    inline value_type&        operator*(){return nodeP->data;}
 
 private:
     node_pointer              nodeP;
@@ -45,8 +56,11 @@ public:
     using pointer           = typename _alloc::pointer;
     using const_pointer     = typename _alloc::const_pointer;
     using list_node         = node<T>;
-    using iterator          = list_iterator<T>;
-    using const_iterator    = const list_iterator<T>;
+    using list_type         = list<T, _alloc>;
+    using iterator          = list_iterator<list_type, pointer, reference>;
+    using const_iterator    = list_iterator<list_type, const_pointer, const_reference>;
+    using reverse_iterator  = std::reverse_iterator<iterator>;
+    using const_reverse_iterator = std::reverse_iterator<const_iterator>;
 
     inline                  list();                   //constructors
     inline                  list(T a);
@@ -58,8 +72,14 @@ public:
     inline void             pop_front();
     inline std::ostream &   write(std::ostream & os) const ;   //print list
     inline size_type        size() {return _size;}
+
     inline iterator         begin() {iterator it(head); return it;}
-    inline iterator         end(){iterator it(tail); return it;}
+    inline const_iterator   begin() const {const_iterator it(head); return it;}
+    inline const_iterator   cbegin() const {const_iterator it(head); return it;}
+    inline iterator         end(){iterator it(tail->next); return it;}
+    inline const_iterator   end() const {const_iterator it(tail->next); return it;}
+    inline const_iterator   cend() const {const_iterator it(tail->next); return it;}
+
 private:
     list_node*              head;
     list_node*              tail;
