@@ -1,1 +1,1 @@
-/usr/bin/g++   -g -O0 -Wall -fprofile-arcs -ftest-coverage -g   CMakeFiles/libtest.dir/unit_tests.o CMakeFiles/libtest.dir/bubblesort_test.o  -o libtest /usr/local/lib/libgtest.a -lpthread 
+/usr/bin/c++   -g -O0 -Wall -fprofile-arcs -ftest-coverage   CMakeFiles/libtest.dir/unit_tests.o CMakeFiles/libtest.dir/bubblesort_test.o  -o libtest /usr/local/lib/libgtest.a -lpthread 

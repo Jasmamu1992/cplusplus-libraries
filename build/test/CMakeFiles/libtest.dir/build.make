@@ -60,15 +60,15 @@ include test/CMakeFiles/libtest.dir/flags.make
 test/CMakeFiles/libtest.dir/unit_tests.o: test/CMakeFiles/libtest.dir/flags.make
 test/CMakeFiles/libtest.dir/unit_tests.o: ../test/unit_tests.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cz0j2j/cplusplus-libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/libtest.dir/unit_tests.o"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libtest.dir/unit_tests.o -c /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp
+	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libtest.dir/unit_tests.o -c /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp
 
 test/CMakeFiles/libtest.dir/unit_tests.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libtest.dir/unit_tests.i"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp > CMakeFiles/libtest.dir/unit_tests.i
+	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp > CMakeFiles/libtest.dir/unit_tests.i
 
 test/CMakeFiles/libtest.dir/unit_tests.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libtest.dir/unit_tests.s"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp -o CMakeFiles/libtest.dir/unit_tests.s
+	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp -o CMakeFiles/libtest.dir/unit_tests.s
 
 test/CMakeFiles/libtest.dir/unit_tests.o.requires:
 
@@ -84,15 +84,15 @@ test/CMakeFiles/libtest.dir/unit_tests.o.provides.build: test/CMakeFiles/libtest
 test/CMakeFiles/libtest.dir/bubblesort_test.o: test/CMakeFiles/libtest.dir/flags.make
 test/CMakeFiles/libtest.dir/bubblesort_test.o: ../test/bubblesort_test.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cz0j2j/cplusplus-libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/libtest.dir/bubblesort_test.o"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libtest.dir/bubblesort_test.o -c /home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp
+	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libtest.dir/bubblesort_test.o -c /home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp
 
 test/CMakeFiles/libtest.dir/bubblesort_test.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libtest.dir/bubblesort_test.i"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp > CMakeFiles/libtest.dir/bubblesort_test.i
+	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp > CMakeFiles/libtest.dir/bubblesort_test.i
 
 test/CMakeFiles/libtest.dir/bubblesort_test.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libtest.dir/bubblesort_test.s"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp -o CMakeFiles/libtest.dir/bubblesort_test.s
+	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp -o CMakeFiles/libtest.dir/bubblesort_test.s
 
 test/CMakeFiles/libtest.dir/bubblesort_test.o.requires:
 
