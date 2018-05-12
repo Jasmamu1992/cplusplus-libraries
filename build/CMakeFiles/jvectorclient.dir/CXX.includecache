@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../cpp_libraries/vector.h
+assert.h
+-
+
+/home/cz0j2j/cplusplus-libraries/jvectorClient.cpp
+iostream
+-
+vector.h
+/home/cz0j2j/cplusplus-libraries/vector.h
+

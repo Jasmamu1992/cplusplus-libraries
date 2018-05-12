@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../cpp_libraries/jstring.h
+cstring
+-
+ostream
+-
+memory
+-
+iterator
+-
+
+/home/cz0j2j/cplusplus-libraries/jstringClient.cpp
+iostream
+-
+jstring.h
+/home/cz0j2j/cplusplus-libraries/jstring.h
+

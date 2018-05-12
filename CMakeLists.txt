@@ -9,7 +9,7 @@ add_subdirectory(test)
 add_executable(client client.cpp)
 add_executable(jvectorclient jvectorClient.cpp)
 add_executable(flistclient flistClient.cpp)
-
+add_executable(jstringClient jstringClient.cpp)
 
 
 
