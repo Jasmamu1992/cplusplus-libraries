@@ -1,1 +1,0 @@
-/usr/bin/g++   -g -O0 -Wall -fprofile-arcs -ftest-coverage -g   CMakeFiles/libtest.dir/unit_tests.o  -o libtest /usr/local/lib/libgtest.a -lpthread 
