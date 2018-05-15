@@ -60,15 +60,15 @@ include CMakeFiles/jstringClient.dir/flags.make
 CMakeFiles/jstringClient.dir/jstringClient.cpp.o: CMakeFiles/jstringClient.dir/flags.make
 CMakeFiles/jstringClient.dir/jstringClient.cpp.o: ../jstringClient.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cz0j2j/cplusplus-libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jstringClient.dir/jstringClient.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jstringClient.dir/jstringClient.cpp.o -c /home/cz0j2j/cplusplus-libraries/jstringClient.cpp
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jstringClient.dir/jstringClient.cpp.o -c /home/cz0j2j/cplusplus-libraries/jstringClient.cpp
 
 CMakeFiles/jstringClient.dir/jstringClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jstringClient.dir/jstringClient.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/jstringClient.cpp > CMakeFiles/jstringClient.dir/jstringClient.cpp.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/jstringClient.cpp > CMakeFiles/jstringClient.dir/jstringClient.cpp.i
 
 CMakeFiles/jstringClient.dir/jstringClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jstringClient.dir/jstringClient.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/jstringClient.cpp -o CMakeFiles/jstringClient.dir/jstringClient.cpp.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/jstringClient.cpp -o CMakeFiles/jstringClient.dir/jstringClient.cpp.s
 
 CMakeFiles/jstringClient.dir/jstringClient.cpp.o.requires:
 

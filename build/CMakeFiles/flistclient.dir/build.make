@@ -60,15 +60,15 @@ include CMakeFiles/flistclient.dir/flags.make
 CMakeFiles/flistclient.dir/flistClient.cpp.o: CMakeFiles/flistclient.dir/flags.make
 CMakeFiles/flistclient.dir/flistClient.cpp.o: ../flistClient.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cz0j2j/cplusplus-libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/flistclient.dir/flistClient.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flistclient.dir/flistClient.cpp.o -c /home/cz0j2j/cplusplus-libraries/flistClient.cpp
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flistclient.dir/flistClient.cpp.o -c /home/cz0j2j/cplusplus-libraries/flistClient.cpp
 
 CMakeFiles/flistclient.dir/flistClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flistclient.dir/flistClient.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/flistClient.cpp > CMakeFiles/flistclient.dir/flistClient.cpp.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/flistClient.cpp > CMakeFiles/flistclient.dir/flistClient.cpp.i
 
 CMakeFiles/flistclient.dir/flistClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flistclient.dir/flistClient.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/flistClient.cpp -o CMakeFiles/flistclient.dir/flistClient.cpp.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/flistClient.cpp -o CMakeFiles/flistclient.dir/flistClient.cpp.s
 
 CMakeFiles/flistclient.dir/flistClient.cpp.o.requires:
 

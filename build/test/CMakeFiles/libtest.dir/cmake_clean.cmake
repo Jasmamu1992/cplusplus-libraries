@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/libtest.dir/unit_tests.o"
-  "CMakeFiles/libtest.dir/bubblesort_test.o"
   "libtest.pdb"
   "libtest"
 )

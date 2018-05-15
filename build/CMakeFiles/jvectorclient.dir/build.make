@@ -60,15 +60,15 @@ include CMakeFiles/jvectorclient.dir/flags.make
 CMakeFiles/jvectorclient.dir/jvectorClient.cpp.o: CMakeFiles/jvectorclient.dir/flags.make
 CMakeFiles/jvectorclient.dir/jvectorClient.cpp.o: ../jvectorClient.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cz0j2j/cplusplus-libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jvectorclient.dir/jvectorClient.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jvectorclient.dir/jvectorClient.cpp.o -c /home/cz0j2j/cplusplus-libraries/jvectorClient.cpp
+	/usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jvectorclient.dir/jvectorClient.cpp.o -c /home/cz0j2j/cplusplus-libraries/jvectorClient.cpp
 
 CMakeFiles/jvectorclient.dir/jvectorClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jvectorclient.dir/jvectorClient.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/jvectorClient.cpp > CMakeFiles/jvectorclient.dir/jvectorClient.cpp.i
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/jvectorClient.cpp > CMakeFiles/jvectorclient.dir/jvectorClient.cpp.i
 
 CMakeFiles/jvectorclient.dir/jvectorClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jvectorclient.dir/jvectorClient.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/jvectorClient.cpp -o CMakeFiles/jvectorclient.dir/jvectorClient.cpp.s
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/jvectorClient.cpp -o CMakeFiles/jvectorclient.dir/jvectorClient.cpp.s
 
 CMakeFiles/jvectorclient.dir/jvectorClient.cpp.o.requires:
 

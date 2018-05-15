@@ -60,15 +60,15 @@ include test/CMakeFiles/libtest.dir/flags.make
 test/CMakeFiles/libtest.dir/unit_tests.o: test/CMakeFiles/libtest.dir/flags.make
 test/CMakeFiles/libtest.dir/unit_tests.o: ../test/unit_tests.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cz0j2j/cplusplus-libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/libtest.dir/unit_tests.o"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libtest.dir/unit_tests.o -c /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp
+	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libtest.dir/unit_tests.o -c /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp
 
 test/CMakeFiles/libtest.dir/unit_tests.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libtest.dir/unit_tests.i"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp > CMakeFiles/libtest.dir/unit_tests.i
+	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp > CMakeFiles/libtest.dir/unit_tests.i
 
 test/CMakeFiles/libtest.dir/unit_tests.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libtest.dir/unit_tests.s"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp -o CMakeFiles/libtest.dir/unit_tests.s
+	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp -o CMakeFiles/libtest.dir/unit_tests.s
 
 test/CMakeFiles/libtest.dir/unit_tests.o.requires:
 
@@ -81,44 +81,18 @@ test/CMakeFiles/libtest.dir/unit_tests.o.provides: test/CMakeFiles/libtest.dir/u
 test/CMakeFiles/libtest.dir/unit_tests.o.provides.build: test/CMakeFiles/libtest.dir/unit_tests.o
 
 
-test/CMakeFiles/libtest.dir/bubblesort_test.o: test/CMakeFiles/libtest.dir/flags.make
-test/CMakeFiles/libtest.dir/bubblesort_test.o: ../test/bubblesort_test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cz0j2j/cplusplus-libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object test/CMakeFiles/libtest.dir/bubblesort_test.o"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libtest.dir/bubblesort_test.o -c /home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp
-
-test/CMakeFiles/libtest.dir/bubblesort_test.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libtest.dir/bubblesort_test.i"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp > CMakeFiles/libtest.dir/bubblesort_test.i
-
-test/CMakeFiles/libtest.dir/bubblesort_test.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libtest.dir/bubblesort_test.s"
-	cd /home/cz0j2j/cplusplus-libraries/build/test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp -o CMakeFiles/libtest.dir/bubblesort_test.s
-
-test/CMakeFiles/libtest.dir/bubblesort_test.o.requires:
-
-.PHONY : test/CMakeFiles/libtest.dir/bubblesort_test.o.requires
-
-test/CMakeFiles/libtest.dir/bubblesort_test.o.provides: test/CMakeFiles/libtest.dir/bubblesort_test.o.requires
-	$(MAKE) -f test/CMakeFiles/libtest.dir/build.make test/CMakeFiles/libtest.dir/bubblesort_test.o.provides.build
-.PHONY : test/CMakeFiles/libtest.dir/bubblesort_test.o.provides
-
-test/CMakeFiles/libtest.dir/bubblesort_test.o.provides.build: test/CMakeFiles/libtest.dir/bubblesort_test.o
-
-
 # Object files for target libtest
 libtest_OBJECTS = \
-"CMakeFiles/libtest.dir/unit_tests.o" \
-"CMakeFiles/libtest.dir/bubblesort_test.o"
+"CMakeFiles/libtest.dir/unit_tests.o"
 
 # External object files for target libtest
 libtest_EXTERNAL_OBJECTS =
 
 test/libtest: test/CMakeFiles/libtest.dir/unit_tests.o
-test/libtest: test/CMakeFiles/libtest.dir/bubblesort_test.o
 test/libtest: test/CMakeFiles/libtest.dir/build.make
 test/libtest: /usr/local/lib/libgtest.a
 test/libtest: test/CMakeFiles/libtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cz0j2j/cplusplus-libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable libtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cz0j2j/cplusplus-libraries/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable libtest"
 	cd /home/cz0j2j/cplusplus-libraries/build/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -127,7 +101,6 @@ test/CMakeFiles/libtest.dir/build: test/libtest
 .PHONY : test/CMakeFiles/libtest.dir/build
 
 test/CMakeFiles/libtest.dir/requires: test/CMakeFiles/libtest.dir/unit_tests.o.requires
-test/CMakeFiles/libtest.dir/requires: test/CMakeFiles/libtest.dir/bubblesort_test.o.requires
 
 .PHONY : test/CMakeFiles/libtest.dir/requires
 

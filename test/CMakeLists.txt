@@ -10,7 +10,7 @@ include_directories(${GTEST_INCLUDE_DIRS})
 
 enable_testing()
 
-set(SOURCE_FILES unit_tests.cpp bubblesort_test.cpp)
+set(SOURCE_FILES unit_tests.cpp)
 
 add_executable(libtest ${SOURCE_FILES})
 target_link_libraries(libtest ${GTEST_LIBRARIES} cpp_libraries pthread)

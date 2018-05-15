@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/jvectorclient.dir/jvectorClient.cpp.o  -o jvectorclient 
+/usr/bin/g++   -g   CMakeFiles/jvectorclient.dir/jvectorClient.cpp.o  -o jvectorclient 

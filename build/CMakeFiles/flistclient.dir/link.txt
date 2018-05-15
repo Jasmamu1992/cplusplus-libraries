@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/flistclient.dir/flistClient.cpp.o  -o flistclient 
+/usr/bin/g++   -g   CMakeFiles/flistclient.dir/flistClient.cpp.o  -o flistclient 

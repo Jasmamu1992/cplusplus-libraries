@@ -6,22 +6,6 @@
 
 #IncludeRegexTransform: 
 
-../cpp_libraries/bubbleSort.h
-iostream
--
-
-/home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp
-gtest/gtest.h
--
-vector
--
-algorithm
--
-bubbleSort.h
-/home/cz0j2j/cplusplus-libraries/test/bubbleSort.h
-stdlib.h
--
-
 /home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp
 iostream
 -

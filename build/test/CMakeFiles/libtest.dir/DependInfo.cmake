@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/cz0j2j/cplusplus-libraries/test/bubblesort_test.cpp" "/home/cz0j2j/cplusplus-libraries/build/test/CMakeFiles/libtest.dir/bubblesort_test.o"
   "/home/cz0j2j/cplusplus-libraries/test/unit_tests.cpp" "/home/cz0j2j/cplusplus-libraries/build/test/CMakeFiles/libtest.dir/unit_tests.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

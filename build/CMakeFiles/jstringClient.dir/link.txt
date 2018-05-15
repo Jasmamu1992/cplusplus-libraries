@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/jstringClient.dir/jstringClient.cpp.o  -o jstringClient 
+/usr/bin/g++   -g   CMakeFiles/jstringClient.dir/jstringClient.cpp.o  -o jstringClient 
